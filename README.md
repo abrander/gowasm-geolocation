@@ -10,7 +10,7 @@ the browser's geolocation API.
 
 ## Examples
 
-### Getting the device positon:
+### Getting the device position
 
 ```go
 package main
@@ -36,7 +36,7 @@ func main() {
 ```
 
 
-### Watching the device postion:
+### Watching the device position
 
 ```go
 package main
@@ -68,13 +68,14 @@ func main() {
 }
 ```
 
-### Integrating into a select style main loop
+### Integrate in a select style main loop
 
 ```go
 package main
 
 import (
 	"fmt"
+	"time"
 
 	"github.com/abrander/gowe/geolocation"
 )
